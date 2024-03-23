@@ -66,7 +66,7 @@ function App() {
 
   const handleEdit = (category) => {
     setEditedCategory(category);
-    setNewCategory({ name: category.name, image: category.image });
+    setNewCategory({ name: "", image: "" }); 
   };
 
   return (
